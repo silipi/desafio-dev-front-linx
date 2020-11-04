@@ -1,0 +1,82 @@
+.card-container {
+  margin: 20px;
+  width: 280px;
+  height: 250px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.15), 8px 16px 16px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 180ms;
+}
+
+.card-container:hover {
+  transform: scale(1.03);
+  box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.15), 16px 26px 26px rgba(0, 0, 0, 0.1);
+}
+
+.card-container .profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-container .profile-info img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.card-container .profile-info div h1 {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-container .profile-info div span {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.card-container p.text {
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.card-container p.text::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.card-container p.text::-webkit-scrollbar-track {
+  background: #1e1e24;
+  border-radius: 3px;
+}
+
+.card-container p.text::-webkit-scrollbar-thumb {
+  background: #0097e6;
+  border-radius: 3px;
+}
+
+.card-container a.link {
+  color: #0097e6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card-container p.date {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 100%;
+  }
+}
