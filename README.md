@@ -4,6 +4,8 @@
 
 Estes projetos são feitos exclusivamente para a resolução de 2 desafios técnicos propostos pela empresa LINX para a vaga de Desenvolvedor JS.
 
+> Observação: Não foi realizado testes unitários como solicitado no desafio pela questão do prazo, visto que eles acabam demorando um pouco mais para garantir a qualidade. Mas eles não seriam problemas, visto que, atualmente, como QA, já tenho conhecimento de testes automatizados E2E e unitários em React.js; 
+
 ## Projeto 1: #hashtag Search Twitter :bird:
 
 Uma aplicação desenvolvida em React.js, com um back-end em Node com Express, para realizar buscas na API do Twitter usando como parâmetro as hashtags;
