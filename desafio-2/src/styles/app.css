@@ -1,0 +1,12 @@
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#uploaded-images-container {
+  display: flex;
+}
+
+.selected-border {
+  border: 3px solid #10ac856b;
+}
